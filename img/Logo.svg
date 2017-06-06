@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg width="220" height="220" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+ <metadata>Created by potrace 1.14, written by Peter Selinger 2001-2017</metadata>
+ <defs>
+  <filter id="svg_14_blur">
+   <feGaussianBlur stdDeviation="0.2" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <text transform="matrix(1, 0, 0, 1.32553, 0, -47.8582)" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Fantasy" font-size="24" id="svg_12" y="152.130964" x="110" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">HENRY HIDALGO</text>
+  <text transform="matrix(0.722971, 0, 0, 0.765167, 21.6799, 47.4167)" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="24" id="svg_13" y="172.489522" x="117.98135" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">HG2</text>
+  <ellipse filter="url(#svg_14_blur)" stroke="#ff7f00" ry="46.5" rx="48.500002" id="svg_14" cy="69.899994" cx="108.500002" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="none"/>
+  <text font-weight="bold" font-style="normal" transform="matrix(4.08075, 0, 0, 2.84733, -265.478, -96.2866)" xml:space="preserve" text-anchor="middle" font-family="Cursive" font-size="24" id="svg_19" y="68.317534" x="91.39929" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#bf5f00" fill="#ff7f00">H</text>
+ </g>
+</svg>
