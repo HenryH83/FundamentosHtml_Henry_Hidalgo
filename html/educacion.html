@@ -18,6 +18,83 @@
       <a>|</a>
       <a href="../html/experiencia.html">Experiencia</a>
         <h3>Educación</h3>
+        <table border="1"> <!--border, borde de la Tabla-->
+          <thead>   <!--thead Para Encabezado-->
+            <tr>     <!-- tr para construir las filas-->
+              <th>Año</th>  <!--th Para resaltar los datos de una tabla y centrar-->
+              <th>Institución</th>
+              <th>Lugar</td>
+              <th>Culminó</td>
+            </tr>
+          </thead>
+          <tbody> <!--tbody Para contenido de la tabla-->
+            <tr>
+              <td>1990</td> <!--td para las columnas-->
+              <td>Domingo Savio</td>
+              <td>Cayambe</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>1995</td> <!--td para las columnas-->
+              <td>Unidad Educativa Cayambe</td>
+              <td>Cayambe</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2000</td> <!--td para las columnas-->
+              <td>ESPOJ</td>
+              <td>Quito</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2010</td> <!--td para las columnas-->
+              <td>Sudamericano</td>
+              <td>Quito</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2017</td> <!--td para las columnas-->
+              <td>NEXTU</td>
+              <td>Atlanta</td>
+              <td>No</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Agregar Estudios</h3> <!--Agregando Estudios Formulario-->
+
+        <form action="">
+        <p> <!--"Año"-->
+      		<label for="year">Año: </label>
+      		<select name="year">
+            <option value=""disabled selected>--SELECCIONE EL AÑO--</option>
+            <option value="1960">1960</option>
+      			<option value="1970">1970</option>
+      			<option value="1980">1980</option>
+            <option value="1985">1985</option>
+            <option value="1990">1990</option>
+            <option value="1995">1995</option>
+            <option value="2000">2000</option>
+            <option value="1950">2010</option>
+            <option value="1950">2017</option>
+      		</select>
+      	</p>
+        <p> <!--Institución-->
+    			<label for="institution">Institución:</label>
+    			<input type="text" name="institution" placeholder="Ej: Hardvard" required="">
+    		</p>
+        <p> <!--Lugar-->
+          <label for="place">Lugar:</label>
+          <textarea type="text" name="place" id="" cols="30" rows="3" placeholder="Ej: Quito"></textarea>
+        </p>
+        <p> <!--Culmino estudios-->
+    			<label for="estudy">¿Culmino?</label>
+    			<input type="radio" name="study"> Si
+    			<input type="radio" name="study"> No
+    		</p>
+        <p> <!--Enviar SUBMIT-->
+    			<input type="submit" value="Enviar">
+    		</p>
+      </form>
   </body>
   <footer>
     © Derechos Reservados
